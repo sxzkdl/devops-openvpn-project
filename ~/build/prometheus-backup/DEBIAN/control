@@ -1,0 +1,8 @@
+Package: prometheus-backup
+Version: 1.0.0
+Architecture: all
+Maintainer: Student <student@example.com>
+Depends: bash, tar, coreutils
+Section: utils
+Priority: optional
+Description: Simple automated backup script for Prometheus configuration.

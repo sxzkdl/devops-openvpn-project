@@ -1,0 +1,11 @@
+client
+dev tun
+proto udp
+remote 34.120.45.67 1194 #внешний IP-адрес у vpn-server
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+remote-cert-tls server
+cipher AES-256-GCM
+verb 3
